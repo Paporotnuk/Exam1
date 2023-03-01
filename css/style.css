@@ -75,9 +75,17 @@ body {
 .smallerTxtSec {
     font-size: larger;
 }
+.sectionForI {
+    height: 260px;
+    display: flex;
+    align-items: end;
+}
 .secRow .card-title {
-    margin-top: -2px;
-    /* transform: scaleY(1.3); */
+    position: absolute;
+    z-index: 2;
+    top: -20px;
+    width: 89%;
+    height: 200px;
 }
 .secRow .card-content {
     padding-top: 0;
