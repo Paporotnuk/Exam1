@@ -63,6 +63,7 @@ body {
 .card {
     padding: 0 10px;
     margin-bottom: 50px;
+    position: relative;
 }
 
 
@@ -106,26 +107,29 @@ body {
 
 
 .emplBar h5 {
-    margin: 0;
+    margin: 0 ;
+    margin-bottom: 10px;
 }
 .emplBar p {
     margin: 0;
 }
 .emplBar {
-    padding: 5px;
+    padding: 15px;
     font-size: smaller;
 }
-
 .tasksBar i {
     margin: 0 15px;
 }
-.thirdRow .card-content span {
-    margin-top: -20px;
+.thirdRow .card-title {
+    position: absolute;
+    width: 92%;
+    top: -25px;
+    z-index: 2;
 }
 .tasksBar {
     font-size: smaller;
     display: flex;
-    padding: 10px;
+    padding: 20px;
     justify-content: space-around;
 }
 .waves-effect {
@@ -135,7 +139,9 @@ body {
 .thirdRow .card-content{
     padding-top: 0;
 }
-
+table tr td {
+    padding: 25px;
+}
 
 
 
