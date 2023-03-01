@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+.active {
+    background-color: brown;
+}
+
+.title {
+    margin-left: 357px;
+    margin-bottom: 65px; 
+    font-weight: bold;
+}
+
+.navig {
+    margin: 20px;
+}
+
+.container-fluid {
+    margin-left: 350px;
+}
+
+
+
+
+
+
+.gIcon i {
+    font-size: 50px;
+}
+.gIcon {
+    margin-top: -20px;
+    width: fit-content;
+    padding: 25px 30px;
+}
+.firstRow .card-content {
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    text-transform: none;
+    display: flex;
+    align-items: center;
+}
+.infCard {
+    margin-top: 15px;
+    text-align: end;
+}
+.infCard h5 {
+    margin: 0;
+}
+
+
+
+
+
+
+
+.sectionForI {
+    margin-top: 40px;
+}
+.card {
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+.smallerTxtSec {
+    font-size: larger;
+}
+.secRow .card-title {
+    margin-top: -2px;
+    /* transform: scaleY(1.3); */
+}
+.secRow .card-content {
+    padding-top: 0;
+}
+.secRow .card-content span i {
+    font-size: 170px;
+}
+.secRow .card-content div i {
+    font-size: 170px;
+}
+.togPic {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.togPic {
+    margin-bottom: -20px;
+    height: 170px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.emplBar h5 {
+    margin: 0;
+}
+.emplBar p {
+    margin: 0;
+}
+.emplBar {
+    padding: 5px;
+    font-size: smaller;
+}
+
+.tasksBar i {
+    margin: 0 15px;
+}
+.thirdRow .card-content span {
+    margin-top: -20px;
+}
+.tasksBar {
+    font-size: smaller;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.waves-effect {
+    display: flex;
+    align-items: center;
+}
+.thirdRow .card-content{
+    padding-top: 0;
+}
+
+
+
+
+
+
+
+.lightC, .lightC2 {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3px;
+    border-radius: 100px;
+} 
+
+.lightC {
+    background-color: rgb(54, 216, 162);
+    margin-right: 15px;
+}
+
+.lightC2 {
+    background-color: rgb(216, 54, 54);
+}
+
+.thirdRow .card-action {
+    display: flex;
+    align-items: center;
+}
+.card .fLineOff {
+    border: 0;
+}
+
+
+
+@media (max-width:992px) {
+    .sidenav-trigger {
+        display: block;
+    }
+    .container-fluid {
+        margin-left: 0;
+    }
+    .title {
+        margin-left: 0;
+    }
+}
